@@ -1,5 +1,5 @@
 package Yeb::Plugin::GeoJSON;
-# ABSTRACT: Yeb Plugin for JSON response
+# ABSTRACT: Yeb Plugin for GeoJSON response with Geo::JSON::Simple functions
 
 use Moo;
 use Geo::JSON::Simple;
@@ -24,6 +24,8 @@ sub BUILD {
 =encoding utf8
 
 =head1 SYNOPSIS
+
+See also L<Geo::JSON::Simple>.
 
 =head1 FRAMEWORK FUNCTIONS
 
